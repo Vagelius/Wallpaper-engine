@@ -22,9 +22,7 @@ def change_wallpaper(image_path):
 if __name__ == "__main__":
 
     
-    image_path = os.path.abspath(
-        r"C:\Users\Vagelis Petrogiannis\Desktop\Misty-morning-in-a-dense-forest-sunlight-breaking-through-the-fog-wallpaper-Full-HD-1920x1080-1.jpg"
-    )
+    image_path = os.path.abspath(r"the image path in your computer")
 
     if change_wallpaper(image_path):
         print("Wallpaper changed successfully")
